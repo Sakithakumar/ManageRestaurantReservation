@@ -9,10 +9,7 @@
         if (name && guests && time) {
             const reservation = { name, guests, time };
             reservations.push(reservation);
-            
             displayReservations();
-            
-            // Clear input fields
             document.getElementById('name').value = '';
             document.getElementById('guests').value = '';
             document.getElementById('time').value = '';
