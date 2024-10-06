@@ -1,0 +1,83 @@
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: #333;
+            background-image: url('res.jpeg');
+            
+        }
+        .reservation-form {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        
+            
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #444;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="datetime-local"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+            transition: background-color 0.3s ease-in-out;
+        }
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        input[type="datetime-local"]:focus {
+            background-color: rgba(255, 255, 255, 1);
+            outline: none;
+        }
+        button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #c6c389;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #bfb06c;
+        }
+        h3 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+        }
+        li button {
+            background-color: #dc3545; /* Bootstrap Danger Color */
+        }
+        li button:hover {
+            background-color: #c82333; /* Darker Red */
+        }
+    </style>
